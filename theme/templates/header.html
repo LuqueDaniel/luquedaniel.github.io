@@ -1,0 +1,37 @@
+<header id="aboutMe" class="jumbotron min-vh-100 d-flex flex-column jumbotron-fluid col m-0 bg-secondary text-light">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-auto align-self-start d-flex justify-content-center">
+        <img src="theme/images/photo.jpg" alt="" class="rounded-circle">
+      </div>
+      <div class="col" style="font-size: 1.05em;">
+        <h1 class="display-3">{% block header_title %}{{ AUTHOR }}{% endblock header_title %}</h1>
+        <p>
+          Desarrollador apasionado por la tecnología y los videojuegos. Desde pequeño los videojuegos han formado
+          parte de mi vida, el primer juego que desarrollé fue un hack rom de Pokémon. Desde entonces he querido desarrollar
+          videojuegos, para compartir con otros parte de esa magia que me cautivo.
+        </p>
+        <p>
+          La curiosidad y aprender cosas nuevas han sido dos de mis motivaciones principales, tanto en mi carrera profesional
+          como en la vida en general. Me gusta compartir mi conocimiento con los demás, de la forma más abierta posible; todo
+          el mundo tiene cosas que enseñar y de las que aprender. Me considero proactivo, no tengo problema en dar y recibir
+          feedback. La mayoría del conocimiento actual que tengo lo he adquirido de forma autodidacta.
+        </p>
+        <p>
+          Mi experiencia en otros sectores pueden aportar valor a cualquier proyecto. Comencé mi vida profesional en el
+          sector administrativo como contable, me ayudó a entender de forma real, la importancia del de la organización a
+          la hora de trabajar. Más tarde, decidí cambiar de profesión y dedicarme a lo que durante tanto tiempo había sido
+          mi hobby, la programación y el desarrollo de software. He trabajado en varias empresas ayudando en su transformación
+          digital y en la mejora de procesos, a través de la implantación y desarrollo de software de gestión.
+        </p>
+        <hr class="my-4">
+        <a class="btn btn-info btn-lg" href="#" role="button">Descargar CV</a>
+        <div class="my-4">
+          <a href="{{ SOCIAL['GitHub'] }}" target="_blank" id="github" class="btn-social"><i class="fa fa-github"></i></a>
+          <a href="{{ SOCIAL['Linkedin'] }}" target="_blank" id="linkedin" class="btn-social"><i class="fa fa-linkedin"></i></a>
+          <a href="{{ SOCIAL['Email'] }}" target="_blank" id="email" class="btn-social"><i class="fa fa-envelope"></i></a>
+        </div>
+      </div>
+    </div>
+  </div>
+</header>

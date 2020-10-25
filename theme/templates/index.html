@@ -1,0 +1,109 @@
+{% extends "base.html" %}
+{% block content %}
+{% include "navbar.html" %}
+{% include "header.html" %}
+<section id="workExperience" class="col py-5 bg-dark text-light">
+  <div class="container">
+    <h2 class="display-4 text-center pb-5">Experiencia Laboral</h2>
+    <div>
+      <h3 class="font-weight-bold">Ddesarrollador e implantador Odoo</h3>
+      <div class="pl-4">
+        <h4>ACT Brideco | Julio 2017 - Actualmente</h4>
+        <p>
+          Estudio de las distintas necesidades de las empresas del grupo para implementar una solución de gestión online.
+          Implantado, adaptado y mantenido el software en tres de las empresas. He tenido la oportunidad de formar a los
+          compañeros en el uso de Odoo y su flujo de trabajo. Otras tareas:
+        </p>
+        <p>Otras tareas realizadas:</p>
+        <ul>
+          <li>Migración entre versiones de Odoo (10.0, 11.0 y 12.0).</li>
+          <li>Migración de datos de softwares anteriores.</li>
+          <li>Administración de servidores Linux.</li>
+        </ul>
+      </div>
+    </div>
+    <div>
+      <h3 class="font-weight-bold">Desarrollador Python, Consultor Odoo y Adminsitrador de servidores Linux</h3>
+      <div class="pl-4">
+        <h4>TICRED Consulting | Noviembre 2017 - Enero 2020</h4>
+        <p>
+          Realizado trabajos esporádicos. Desarrollo de un scrapper para extraer imágenes e información de productos de
+          los distitnos marketplaces de Amazon. Asesoramiento / consultoría de Odoo. Desarrollo de addons para adaptar
+          Odoo a las necesidades de sus clientes.
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+<section id="projects" class="col py-5 bg-secondary text-light">
+  <div class="container">
+    <h2 class="display-4 text-center pb-5">Proyectos</h2>
+    <div class="row row-cols-2">
+      <div class="card bg-dark border-info col mb-2">
+        <div class="card-header">
+          <h3 class="card-title">Pybooru</h3>
+        </div>
+        <div class="card-body">
+          <h6 class="card-subtitle mb-2 text-muted">2012 - Actualidad</h6>
+          <p class="card-text">Pybooru es un paquete Python para consumir APIs de tablones de imagenes basados en Danbooru/Moebooru.</p>
+          <a href="https://github.com/LuqueDaniel/pybooru" class="card-link text-info"><i class="fa fa-github"></i> Repositorio</a>
+          <a href="https://pybooru.readthedocs.io/en/stable/?badge=stable" class="card-link text-info"> <i class="fa fa-book"></i> Documentación</a>
+        </div>
+      </div>
+      <div class="card bg-dark border-info col mb-2">
+        <div class="card-header">
+          <h3 class="card-title">lnmc</h3>
+        </div>
+        <div class="card-body">
+          <h6 class="card-subtitle mb-2 text-muted">Herramienta</h6>
+          <p class="card-text">Permite crear enlaces simbolicos por lotes a partir de un archivo YAML y los consolida en un directorio especifico.</p>
+          <a href="https://github.com/LuqueDaniel/lnmc" class="card-link text-info"><i class="fa fa-github"></i> Repositorio</a>
+        </div>
+      </div>
+      <div class="card bg-dark border-info col mb-2">
+        <div class="card-header">
+          <h3 class="card-title">Odoo Addons</h3>
+        </div>
+        <div class="card-body">
+          <h6 class="card-subtitle mb-2 text-muted"></h6>
+          <p class="card-text">Modulos que modifican o extienden las funcionalidades de Odoo para adaptarlo a las necesidades de la empresa.</p>
+          <a href="https://github.com/LuqueDaniel/odoo-custom-addons" class="card-link text-info"><i class="fa fa-github"></i> Repositorio</a>
+        </div>
+      </div>
+      <div class="card bg-dark border-info col mb-2">
+        <div class="card-header">
+          <h3 class="card-title">GDT - Visual Novel Mod</h3>
+        </div>
+        <div class="card-body">
+          <h6 class="card-subtitle mb-2 text-muted">Mod</h6>
+          <p class="card-text">Mod para el videojuego Game Dev Tycoon. Añade nuevos temas e investigaciones.</p>
+          <a href="https://steamcommunity.com/sharedfiles/filedetails/?id=299122114" class="card-link text-info"><i class="fa fa-steam"></i> Steam</a>
+          <a href="https://github.com/LuqueDaniel/gdt-visualnovel-mod" class="card-link text-info"><i class="fa fa-github"></i> Repositorio</a>
+        </div>
+      </div>
+      <div class="card bg-dark border-info col mb-2">
+        <img src="theme/images/sweets_dreams.jpg" alt="" class="card-img-top">
+        <div class="card-header">
+          <h3 class="card-title"><a href="https://laginc.itch.io/sweets-dreams" class="text-info">Sweets Dreams</a></h3>
+        </div>
+        <div class="card-body">
+          <h6 class="card-subtitle mb-2 text-muted">Game jam</h6>
+          <p class="card-text">Desarrolle los sistemas de control de fases, control de patrones y reutilización de obstáculos.</p>
+          <a href="https://laginc.itch.io/sweets-dreams" class="card-link text-info"><i class="fa fa-itch-io"></i> Itch.io</a>
+        </div>
+      </div>
+      <div class="card bg-dark border-info col mb-2">
+        <img src="theme/images/treasure_hunt.png" alt="" class="card-img-top">
+        <div class="card-header">
+          <h3 class="card-title"><a href="https://kyplim.itch.io/dont-let-them-loot-you" class="text-info">Don't let them loot you!</a></h3>
+        </div>
+        <div class="card-body">
+          <h6 class="card-subtitle mb-2 text-muted">Game jam</h6>
+          <p class="card-text">Me encargue de desarrolle las interacciones de varios objetos y sistemas.</p>
+          <a href="https://kyplim.itch.io/dont-let-them-loot-you" class="card-link text-info"><i class="fa fa-itch-io"></i> Itch.io</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+{% endblock content %}
