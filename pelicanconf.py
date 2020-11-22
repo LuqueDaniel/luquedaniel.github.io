@@ -2,6 +2,7 @@
 # -*- coding: utf-8 -*- #
 
 AUTHOR = "Daniel Luque Soria"
+PROFESIONAL_TITLE = "Unity Developer"
 SITENAME = "Portfolio - Daniel Luque"
 SITEURL = ""
 
