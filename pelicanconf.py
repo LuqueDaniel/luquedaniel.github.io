@@ -3,7 +3,7 @@
 
 AUTHOR = "Daniel Luque Soria"
 PROFESIONAL_TITLE = "Unity Developer"
-SITENAME = "Portfolio - Daniel Luque"
+SITENAME = "Daniel Luque - Portfolio"
 SITEURL = ""
 
 PATH = "content"
@@ -20,7 +20,7 @@ AUTHOR_FEED_ATOM = None
 AUTHOR_FEED_RSS = None
 
 # Blogroll
-LINKS = {}
+LINKS: dict = {}
 
 # Social widget
 SOCIAL = {
