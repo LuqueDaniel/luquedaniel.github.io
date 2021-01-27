@@ -35,3 +35,5 @@ DEFAULT_PAGINATION = False
 # RELATIVE_URLS = True
 
 THEME = "theme"
+
+PAGE_ORDER_BY = "order"

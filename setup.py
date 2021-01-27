@@ -13,7 +13,6 @@ setuptools.setup(
     py_modules=["lnmc"],
     install_requires=["pelican[markdown]==4.5.0"],
     extras_require={
-        "test": ["pytest", "pytest-cov"],
-        "dev": ["pylint", "mypy", "black", "isort>=5.6", "pre-commit"],
+        "dev": ["black", "isort>=5.6", "pre-commit"],
     },
 )
