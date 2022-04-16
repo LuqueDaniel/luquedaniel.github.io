@@ -1,0 +1,29 @@
+a.btn-social,
+.btn-social
+{
+    border-radius: 50%;
+    color: #ffffff !important;
+    background-color: #343A40;
+    display: inline-block;
+    height: 72px;
+    line-height: 72px;
+    margin: 8px 4px;
+    text-align: center;
+    text-decoration: none;
+    transition: background-color .3s;
+    webkit-transition: background-color .3s;
+    width: 72px;
+}
+
+.btn-social
+{
+    font-size: 40px;
+}
+
+.btn-social:hover,.btn-social:focus
+{
+    color: #fff;
+    outline: none;
+    text-decoration: none;
+    background-color: #464f57;
+}
