@@ -4,14 +4,14 @@ import setuptools
 
 setuptools.setup(
     name="MyPortfolio",
-    version="v2021.5.1",
+    version="v2022.4.16",
     license="AGPLv3+",
     description="",
     url="https://github.com/LuqueDaniel/lnmc",
     author="Daniel Luque",
     author_email="danielluque14@gmail.com",
-    install_requires=["pelican[markdown]==4.5.0"],
+    install_requires=["pelican[markdown]==4.7"],
     extras_require={
-        "dev": ["black", "isort>=5.6", "pre-commit"],
+        "dev": ["black", "isort", "pre-commit", "pylint", "mypy"],
     },
 )
