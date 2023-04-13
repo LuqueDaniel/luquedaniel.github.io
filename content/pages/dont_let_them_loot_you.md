@@ -1,5 +1,5 @@
 title: Don't let them loot you!
-order: 1
+order: 3
 project_type: Game Jam
 url_title: https://kyplim.itch.io/dont-let-them-loot-you
 url_itch: https://kyplim.itch.io/dont-let-them-loot-you
