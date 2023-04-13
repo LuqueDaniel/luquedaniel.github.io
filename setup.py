@@ -4,7 +4,7 @@ import setuptools
 
 setuptools.setup(
     name="MyPortfolio",
-    version="v2022.4.16",
+    version="v2023.4.13",
     license="AGPLv3+",
     description="",
     url="https://github.com/LuqueDaniel/lnmc",

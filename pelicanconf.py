@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*- #
 
 AUTHOR = "Daniel Luque Soria"
-PROFESIONAL_ROLE = "Unity Developer"
+PROFESIONAL_ROLE = "Backend & Unity Developer"
 SITENAME = "Daniel Luque - Portfolio"
 SITEURL = "https://luquedaniel.github.io"
 
