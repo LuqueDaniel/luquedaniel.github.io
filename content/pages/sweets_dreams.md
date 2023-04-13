@@ -1,4 +1,5 @@
 title: Sweets Dreams
+status: hidden
 order: 3
 project_type: Game Jam
 url_title: https://laginc.itch.io/sweets-dreams
