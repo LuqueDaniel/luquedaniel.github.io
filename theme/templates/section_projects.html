@@ -1,7 +1,7 @@
 <div class="container">
   <h2 class="display-4 text-center pb-5">Proyectos</h2>
   {% for page in pages %}
-  <div class="row mb-4">
+  <div class="row mb-5">
     <div class="col-md-5">
       {% if page.video_youtube %}
       <div class="embed-responsive embed-responsive-16by9">
@@ -12,18 +12,30 @@
       {% endif %}
     </div>
     <div class="col">
-      <h3><a href="{{ page.url_title }}" class="text-info">{{ page.title }}</a></h3>
-      <h6 class="mb-2 text-muted">{{ page.project_type }}</h6>
-      {{ page.content }}
-      {% if page.url_itch %}
-      <a href="{{ page.url_itch }}" class="btn btn-outline-info" role="button"><i class="fab fa-itch-io"></i> Itch.io</a>
-      {% endif %}
-      {% if page.url_steam %}
-      <a href="{{ page.url_steam }}" class="btn btn-outline-info" role="button"><i class="fab fa-steam"></i> Steam</a>
-      {% endif %}
-      {% if page.url_github %}
-      <a href="{{ page.url_github }}" class="btn btn-outline-info" role="button"><i class="fab fa-github"></i> Repositorio</a>
-      {% endif %}
+      <div>
+        <h3><a href="{{ page.url_title }}" class="text-info">{{ page.title }}</a></h3>
+        <h5 class="mb-2 text-muted">{{ page.project_type }}</h5>
+      </div>
+      <div style="font-size: 1.2rem">
+        {{ page.content }}
+      </div>
+      <div>
+        {% if page.url_steam %}
+        <a href="{{ page.url_steam }}" class="btn btn-dark btn-lg" role="button"><i class="fab fa-steam"></i> Steam</a>
+        {% endif %}
+        {% if page.url_app_store %}
+        <a href="{{ page.url_apple }}" class="btn btn-dark btn-lg" role="button"><i class="fab fa-apple"></i> App Store</a>
+        {% endif %}
+        {% if page.url_google_play %}
+        <a href="{{ page.url_apple }}" class="btn btn-dark btn-lg" role="button"><i class="fab fa-google-play"></i> Google Play</a>
+        {% endif %}
+        {% if page.url_itch %}
+        <a href="{{ page.url_itch }}" class="btn btn-dark btn-lg" role="button"><i class="fab fa-itch-io"></i> Itch.io</a>
+        {% endif %}
+        {% if page.url_github %}
+        <a href="{{ page.url_github }}" class="btn btn-dark btn-lg" role="button"><i class="fab fa-github"></i> Repositorio</a>
+        {% endif %}
+      </div>
     </div>
   </div>
   {% endfor %}
