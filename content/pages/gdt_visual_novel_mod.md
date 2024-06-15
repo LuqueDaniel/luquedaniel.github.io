@@ -1,5 +1,5 @@
 title: GTD Visual Novel Mod
-order: 5
+order: 6
 project_type: Mod
 url_title: https://steamcommunity.com/sharedfiles/filedetails/?id=299122114
 url_steam: https://steamcommunity.com/sharedfiles/filedetails/?id=299122114

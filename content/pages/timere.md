@@ -1,5 +1,5 @@
 title: Timere
-order: 2
+order: 3
 project_type: Game Jam
 url_title: https://kyplim.itch.io/timere
 url_itch: https://kyplim.itch.io/timere
