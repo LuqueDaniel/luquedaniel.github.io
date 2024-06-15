@@ -28,7 +28,7 @@ LINKS: dict = {}
 # Social widget
 SOCIAL = {
     "GitHub": "https://github.com/LuqueDaniel",
-    "Linkedin": "https://www.linkedin.com/in/daniel-luque-soria/",
+    "Linkedin": "https://www.linkedin.com/in/daluso",
     "Email": "mailto:danielluque14@gmail.com",
 }
 
