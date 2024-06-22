@@ -5,7 +5,7 @@ AUTHOR = "Daniel Luque Soria"
 PROFESIONAL_ROLE = "Backend & Unity Developer"
 SITENAME = "Daniel Luque - Portfolio"
 SITEURL = "https://luquedaniel.github.io"
-VERSION = "v2024.6.16"
+VERSION = "v2024.6.22"
 
 PATH = "content"
 
